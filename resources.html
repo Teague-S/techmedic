@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Resources</title>
+		<link rel="icon" type="image/x-icon" href="f.png" />
+		<!-- CSS only -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body id="main">
+		<style>
+			@media only screen and (min-width: 880px) {
+				#foot {
+					position: fixed;
+				}
+			}
+			@media only screen and (max-width: 545px) {
+				#head {
+					display: none;
+				}
+			}
+			@media only screen and (min-width: 546px) {
+				#smallHead {
+					display: none;
+				}
+			}
+			@media only screen and (max-width: 907px) {
+				#bigNav {
+					display: none;
+				}
+				#bigFooter {
+					display: none;
+				}
+			}
+			@media only screen and (min-width: 908px) {
+				#smallNav {
+					display: none;
+				}
+				#smallFooter1 {
+					display: none;
+				}
+				#smallFooter2 {
+					display: none;
+				}
+			}
+			#main {
+				background-color: #666666;
+			}
+			div {
+				color: white;
+			}
+			a {
+				color: white;
+			}
+			.nav-item {
+				padding-right: 0.5em;
+				font-size: 0.9em;
+				margin-bottom: -0.3em;
+			}
+			#navbarDropdown {
+				color: white;
+				font-size: larger;
+			}
+		</style>
+		<img
+			class="img-fluid"
+			src="logo.png"
+			alt="Responsive image"
+			style="padding-left: 2vw; background-color: white"
+			id="smallHead"
+		/>
+		<img
+			class="img-fluid"
+			src="logo.png"
+			alt="Responsive image"
+			style="
+				width: 100%;
+				padding-right: 63.5%;
+				background-color: white;
+				padding-left: 2vw;
+			"
+			id="head"
+		/>
+		<nav
+			class="navbar navbar-expand p-0"
+			style="background-color: #ff6633"
+			id="bigNav"
+		>
+			<ul class="navbar-nav ms-auto">
+				<li class="nav-item">
+					<a
+						class="nav-link active"
+						aria-current="page"
+						href="index.html"
+						style="color: white; font-size: larger"
+						><b>Home</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="services.html" style="color: white; font-size: larger"
+						><b>Services</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="booking.html" style="color: white; font-size: larger"
+						><b>Booking</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a
+						class="nav-link"
+						href="testimonials.html"
+						style="color: white; font-size: larger"
+						><b>Testimonials</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="policies.html" style="color: white; font-size: larger"
+						><b>Policies</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="travel.html" style="color: white; font-size: larger"
+						><b>Travel</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="pay.html" style="color: white; font-size: larger"
+						><b>Pay Us</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a
+						class="nav-link"
+						href="resources.html"
+						style="color: white; background-color: #666666; font-size: larger"
+						><b>Resources</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html" style="color: white; font-size: larger"
+						><b>About Us</b></a
+					>
+				</li>
+			</ul>
+		</nav>
+		<nav
+			class="navbar navbar-expand p-0"
+			style="background-color: #ff6633"
+			id="smallNav"
+		>
+			<ul class="navbar-nav ms-auto">
+				<li class="nav-item dropdown">
+					<a
+						class="nav-link dropdown-toggle"
+						href="#"
+						id="navbarDropdown"
+						role="button"
+						data-bs-toggle="dropdown"
+						aria-expanded="false"
+					>
+						<b>Menu</b>
+					</a>
+					<ul
+						class="dropdown-menu dropdown-menu-end"
+						aria-labelledby="navbarDropdown"
+						style="padding-right: 0.5em"
+					>
+						<li>
+							<a class="dropdown-item" href="index.html"><b>Home</b></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="services.html"><b>Services</b></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="booking.html"><b>Booking</b></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="testimonials.html"><b>Testimonials</b></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="policies.html"><b>Policies</b></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="travel.html"><b>Travel</b></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="pay.html"><b>Pay Us</b></a>
+						</li>
+						<li>
+							<a
+								class="dropdown-item"
+								href="resources.html"
+								style="background-color: rgb(215, 215, 215)"
+								><b>Resources</b></a
+							>
+						</li>
+						<li>
+							<a class="dropdown-item" href="about.html"><b>About Us</b></a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<div class="container-fluid p-5 pt-4">
+			<div class="row">
+				<div class="col-12 p-2">
+					<img
+						class="img-fluid"
+						src="plus.png"
+						style="padding-right: 5px; padding-bottom: 1px"
+					/>
+					<b>Downloads:</b>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 pt-1 pb-1" style="position: relative; padding-left: 2em">
+					<a href="https://download.teamviewer.com/download/TeamViewerQS.dmg"
+						>TeamViewer QuickSupport for MacOS</a
+					>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 pt-1 pb-1" style="position: relative; padding-left: 2em">
+					<a href="https://download.teamviewer.com/download/version_13x/TeamViewerQS.dmg"
+						>TeamViewer QuickSupport for MacOS 10.10-10.12</a
+					>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 pt-1 pb-1" style="position: relative; padding-left: 2em">
+					<a href="https://download.teamviewer.com/download/TeamViewerQS.exe"
+						>TeamViewer QuickSupport for Windows</a
+					>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 pt-1 pb-1" style="position: relative; padding-left: 2em">
+					<a href="https://www.backblaze.com/cloud-backup.html#af1310">BackBlaze</a>
+				</div>
+			</div>
+		</div>
+		<footer
+			class="footer"
+			style="background-color: #ff6633; position: fixed; bottom: 0; width: 100%"
+			id="foot"
+		>
+			<div class="d-flex justify-content-center">
+				<b id="bigFooter">EMAIL: help@techmedic.us -- PHONE: 401-369-8108</b>
+			</div>
+			<div class="d-flex justify-content-center">
+				<b id="smallFooter1">EMAIL: help@techmedic.us</b>
+			</div>
+			<div class="d-flex justify-content-center">
+				<b id="smallFooter2">PHONE: 401-369-8108</b>
+			</div>
+			<div class="d-flex justify-content-center">
+				<b>SERVICE HOURS: weekdays 8-5pm, by appointment ONLY</b>
+			</div>
+			<div class="d-flex justify-content-center">
+				<b>LOCATION: 355 Hope St. Flr 2 Unit 5, Providence, RI 02906</b>
+			</div>
+			<div class="d-flex justify-content-center">
+				(we're above Tortilla Flats, with door to the right of the restaurant entrance)
+			</div>
+		</footer>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Home</title>
+		<link rel="icon" type="image/x-icon" href="f.png" />
+		<!-- CSS only -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body id="main">
+		<style>
+			@media only screen and (min-width: 880px) {
+				#foot {
+					position: fixed;
+				}
+			}
+			@media only screen and (max-width: 545px) {
+				#head {
+					display: none;
+				}
+			}
+			@media only screen and (min-width: 546px) {
+				#smallHead {
+					display: none;
+				}
+			}
+			@media only screen and (max-width: 907px) {
+				#bigNav {
+					display: none;
+				}
+				#bigFooter {
+					display: none;
+				}
+			}
+			@media only screen and (min-width: 908px) {
+				#smallNav {
+					display: none;
+				}
+				#smallFooter1 {
+					display: none;
+				}
+				#smallFooter2 {
+					display: none;
+				}
+			}
+			#main {
+				background-color: #666666;
+			}
+			div {
+				color: white;
+			}
+			.nav-item {
+				padding-right: 0.5em;
+				font-size: 0.9em;
+				margin-bottom: -0.3em;
+			}
+			#navbarDropdown {
+				color: white;
+				font-size: larger;
+			}
+		</style>
+		<img
+			class="img-fluid"
+			src="logo.png"
+			alt="Responsive image"
+			style="padding-left: 2vw; background-color: white"
+			id="smallHead"
+		/>
+		<img
+			class="img-fluid"
+			src="logo.png"
+			alt="Responsive image"
+			style="
+				width: 100%;
+				padding-right: 63.5%;
+				background-color: white;
+				padding-left: 2vw;
+			"
+			id="head"
+		/>
+		<nav
+			class="navbar navbar-expand p-0"
+			style="background-color: #ff6633"
+			id="bigNav"
+		>
+			<ul class="navbar-nav ms-auto">
+				<li class="nav-item">
+					<a
+						class="nav-link active"
+						aria-current="page"
+						href="index.html"
+						style="color: white; background-color: #666666; font-size: larger"
+						><b>Home</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="services.html" style="color: white; font-size: larger"
+						><b>Services</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="booking.html" style="color: white; font-size: larger"
+						><b>Booking</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a
+						class="nav-link"
+						href="testimonials.html"
+						style="color: white; font-size: larger"
+						><b>Testimonials</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="policies.html" style="color: white; font-size: larger"
+						><b>Policies</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="travel.html" style="color: white; font-size: larger"
+						><b>Travel</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="pay.html" style="color: white; font-size: larger"
+						><b>Pay Us</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a
+						class="nav-link"
+						href="resources.html"
+						style="color: white; font-size: larger"
+						><b>Resources</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html" style="color: white; font-size: larger"
+						><b>About Us</b></a
+					>
+				</li>
+			</ul>
+		</nav>
+		<nav
+			class="navbar navbar-expand p-0"
+			style="background-color: #ff6633"
+			id="smallNav"
+		>
+			<ul class="navbar-nav ms-auto">
+				<li class="nav-item dropdown">
+					<a
+						class="nav-link dropdown-toggle"
+						href="#"
+						id="navbarDropdown"
+						role="button"
+						data-bs-toggle="dropdown"
+						aria-expanded="false"
+					>
+						<b>Menu</b>
+					</a>
+					<ul
+						class="dropdown-menu dropdown-menu-end"
+						aria-labelledby="navbarDropdown"
+						style="padding-right: 0.5em"
+					>
+						<li>
+							<a
+								class="dropdown-item"
+								href="index.html"
+								style="background-color: rgb(215, 215, 215)"
+								><b>Home</b></a
+							>
+						</li>
+						<li>
+							<a class="dropdown-item" href="services.html"><b>Services</b></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="booking.html"><b>Booking</b></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="testimonials.html"><b>Testimonials</b></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="policies.html"><b>Policies</b></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="travel.html"><b>Travel</b></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="pay.html"><b>Pay Us</b></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="resources.html"><b>Resources</b></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="about.html"><b>About Us</b></a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<div class="container-fluid p-5 pt-4">
+			<div class="row">
+				<div class="col-12 p-2">
+					<img
+						class="img-fluid"
+						src="plus.png"
+						style="padding-right: 5px; padding-bottom: 1px"
+					/>
+					From home to office, computers are easier to use than ever. Unfortunately, when
+					things go wrong, you find out just how puzzling and complicated they can be. In
+					that situation, you need a <b>Tech Medic</b>. We can come to you OR work with
+					you remotely. We're your safety net when you want to be up and running with
+					confidence.
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 p-2">
+					<img
+						class="img-fluid"
+						src="plus.png"
+						style="padding-right: 5px; padding-bottom: 1px"
+					/>
+					Your satisfaction is our number one priority, and Tech Medic excels in offering
+					each customer:
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-2 p-2 pt-1 pb-1 col-sm-12 order-0">
+					<b>Expertise</b>
+				</div>
+				<div class="col-lg-10 p-2 pt-1 pb-1 col-sm-12 ms-auto order-1">
+					We're experts in fixing, maintaining, and upgrading Macs, PCs, and networks. We
+					have a team of specialists that can tackle the toughest computer problems.
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-2 p-2 pt-1 pb-1 col-sm-12 order-0">
+					<b>Communication</b>
+				</div>
+				<div class="col-lg-10 p-2 pt-1 pb-1 col-sm-12 ms-auto order-1">
+					We don't just work with machines, we work with people. Whether we are helping
+					clients make a decision or doing training, it's about talking in plain English,
+					not confusing jargon. When we leave, you should always feel more empowered to
+					use your computer as a tool.
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-2 p-2 pt-1 pb-1 col-sm-12 order-0">
+					<b>Value</b>
+				</div>
+				<div class="col-lg-10 p-2 pt-1 pb-1 col-sm-12 ms-auto order-1">
+					We offer very competitive hourly rates, tailored to the customer. Further, when
+					you turn to us for purchasing help, you can trust we'll guide you to the right
+					products, from the right vendors. When we provide products ourselves, it's
+					always at a fair price, similar to what you'd see at retail.
+				</div>
+			</div>
+		</div>
+		<footer
+			class="footer"
+			style="background-color: #ff6633; bottom: 0; width: 100%"
+			id="foot"
+		>
+			<div class="d-flex justify-content-center">
+				<b id="bigFooter">EMAIL: help@techmedic.us -- PHONE: 401-369-8108</b>
+			</div>
+			<div class="d-flex justify-content-center">
+				<b id="smallFooter1">EMAIL: help@techmedic.us</b>
+			</div>
+			<div class="d-flex justify-content-center">
+				<b id="smallFooter2">PHONE: 401-369-8108</b>
+			</div>
+			<div class="d-flex justify-content-center">
+				<b>SERVICE HOURS: weekdays 8-5pm, by appointment ONLY</b>
+			</div>
+			<div class="d-flex justify-content-center">
+				<b>LOCATION: 355 Hope St. Flr 2 Unit 5, Providence, RI 02906</b>
+			</div>
+			<div class="d-flex justify-content-center">
+				(we're above Tortilla Flats, with door to the right of the restaurant entrance)
+			</div>
+		</footer>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

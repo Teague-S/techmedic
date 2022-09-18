@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Policies</title>
+		<link rel="icon" type="image/x-icon" href="f.png" />
+		<!-- CSS only -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body id="main">
+		<style>
+			@media only screen and (max-width: 545px) {
+				#head {
+					display: none;
+				}
+			}
+			@media only screen and (min-width: 546px) {
+				#smallHead {
+					display: none;
+				}
+			}
+			@media only screen and (max-width: 907px) {
+				#bigNav {
+					display: none;
+				}
+				#bigFooter {
+					display: none;
+				}
+			}
+			@media only screen and (min-width: 908px) {
+				#smallNav {
+					display: none;
+				}
+				#smallFooter1 {
+					display: none;
+				}
+				#smallFooter2 {
+					display: none;
+				}
+			}
+			#main {
+				background-color: #666666;
+			}
+			div {
+				color: white;
+			}
+			a {
+				color: white;
+			}
+			.nav-item {
+				padding-right: 0.5em;
+				font-size: 0.9em;
+				margin-bottom: -0.3em;
+			}
+			#navbarDropdown {
+				color: white;
+				font-size: larger;
+			}
+		</style>
+		<img
+			class="img-fluid"
+			src="logo.png"
+			alt="Responsive image"
+			style="padding-left: 2vw; background-color: white"
+			id="smallHead"
+		/>
+		<img
+			class="img-fluid"
+			src="logo.png"
+			alt="Responsive image"
+			style="
+				width: 100%;
+				padding-right: 63.5%;
+				background-color: white;
+				padding-left: 2vw;
+			"
+			id="head"
+		/>
+		<nav
+			class="navbar navbar-expand p-0"
+			style="background-color: #ff6633"
+			id="bigNav"
+		>
+			<ul class="navbar-nav ms-auto">
+				<li class="nav-item">
+					<a
+						class="nav-link active"
+						aria-current="page"
+						href="index.html"
+						style="color: white; font-size: larger"
+						><b>Home</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="services.html" style="color: white; font-size: larger"
+						><b>Services</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="booking.html" style="color: white; font-size: larger"
+						><b>Booking</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a
+						class="nav-link"
+						href="testimonials.html"
+						style="color: white; font-size: larger"
+						><b>Testimonials</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a
+						class="nav-link"
+						href="policies.html"
+						style="color: white; background-color: #666666; font-size: larger"
+						><b>Policies</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="travel.html" style="color: white; font-size: larger"
+						><b>Travel</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="pay.html" style="color: white; font-size: larger"
+						><b>Pay Us</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a
+						class="nav-link"
+						href="resources.html"
+						style="color: white; font-size: larger"
+						><b>Resources</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html" style="color: white; font-size: larger"
+						><b>About Us</b></a
+					>
+				</li>
+			</ul>
+		</nav>
+		<nav
+			class="navbar navbar-expand p-0"
+			style="background-color: #ff6633"
+			id="smallNav"
+		>
+			<ul class="navbar-nav ms-auto">
+				<li class="nav-item dropdown">
+					<a
+						class="nav-link dropdown-toggle"
+						href="#"
+						id="navbarDropdown"
+						role="button"
+						data-bs-toggle="dropdown"
+						aria-expanded="false"
+					>
+						<b>Menu</b>
+					</a>
+					<ul
+						class="dropdown-menu dropdown-menu-end"
+						aria-labelledby="navbarDropdown"
+						style="padding-right: 0.5em"
+					>
+						<li>
+							<a class="dropdown-item" href="index.html"><b>Home</b></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="services.html"><b>Services</b></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="booking.html"><b>Booking</b></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="testimonials.html"><b>Testimonials</b></a>
+						</li>
+						<li>
+							<a
+								class="dropdown-item"
+								href="policies.html"
+								style="background-color: rgb(215, 215, 215)"
+								><b>Policies</b></a
+							>
+						</li>
+						<li>
+							<a class="dropdown-item" href="travel.html"><b>Travel</b></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="pay.html"><b>Pay Us</b></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="resources.html"><b>Resources</b></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="about.html"><b>About Us</b></a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<div class="container-fluid p-5 pt-4">
+			<div class="row">
+				<div class="col-12 p-2">
+					<img
+						class="img-fluid"
+						src="plus.png"
+						style="padding-right: 5px; padding-bottom: 1px"
+					/>
+					Key Tech Medic policies:
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-0 col-sm-12 order-2">
+					>Our billing rate is $120-132 for individuals & $132–144/hr for businesses
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-0 col-sm-12 order-2">
+					>Billable time is prorated, rounded up to the nearest 5mins
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-0 col-sm-12 order-2">
+					>Consultations via phone, email & text, 1min or longer, are considered billable
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-0 col-sm-12 order-2">
+					>Travel rates depend on zip code (ex: 02906 = $15 & East Greenwich $90)
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-0 col-sm-12 order-2">
+					>As a consulting & repair service (not a “retail shop”), help is by appointment
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-0 col-sm-12 order-2">
+					>Most appointments are booked 2-5 days out
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-0 col-sm-12 order-2">
+					>When asked to address pressing needs, we quote a fee, depending on our ability
+					to accommodate:
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-2 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-10 p-2 pt-0 pb-0 col-sm-12 order-2">
+					-Weekdays, small pressing topics: $10-100
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-2 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-10 p-2 pt-0 pb-0 col-sm-12 order-2">
+					-Evening or weekend work: $25-250
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-2 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-10 p-2 pt-0 pb-0 col-sm-12 order-2">
+					-Emergencies: $50-500
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-0 col-sm-12 order-2">
+					>For new clients, we take Venmo, cash, or a CC (with a 3% surcharge)
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-0 col-sm-12 order-2">
+					>For established clients, brief sessions are logged on a tab (until exceeding
+					$50)
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-1 col-sm-12 order-2">
+					>Most clients pay by check or Venmo
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 p-2">
+					<img
+						class="img-fluid"
+						src="plus.png"
+						style="padding-right: 5px; padding-bottom: 1px"
+					/>
+					Most of our work is done on an incremental basis, meaning that we use multiple
+					shorter sessions to solve problems more smoothly and cost-effectively. Time
+					between sessions is valuable, allowing some or all of the following:
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-0 col-sm-12 order-2">
+					1. Computer & logistical processes can run their course.
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-0 col-sm-12 order-2">
+					2. You or we can handle matters such as research, corresponding with a 3rd party
+					or ordering parts.
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-0 col-sm-12 order-2">
+					3. You can acquaint yourself with any adjustments made to your system
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-0 col-sm-12 order-2">
+					4. You can discover and document fresh concerns that become apparent
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-0 col-sm-12 order-2">
+					5. You can fine-tune your strategy for further tech work
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-0 col-sm-12 order-2">
+					6. We can schedule the next session
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-1 pb-0 col-sm-12 order-2">
+					Related to #4 above: If problems arise after a session with us, that usually
+					just means more work, billed at normal rates, is necessary. Exceptions to this
+					include:
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-0 col-sm-12 order-2">
+					A) If we make an error or misjudgment, at our discretion, we will correct the
+					problem for free
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-1 col-sm-12 order-2">
+					B) If while onsite, we overlook a key step, we’ll waive the travel fee to return
+					to finish
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 p-2">
+					<img
+						class="img-fluid"
+						src="plus.png"
+						style="padding-right: 5px; padding-bottom: 1px"
+					/>
+					Some work is offered at our office for a flat rate. Most quotes are generated
+					through the process of assessing and strategizing about a problem & billed
+					normally. Some simple quotes require a flat online assessment of $10 to get a
+					quote for:
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-1 col-sm-12 order-2">
+					>Replacing broken laptop screens
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-1 col-sm-12 order-2">
+					>Replacing laptop batteries
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-1 col-sm-12 order-2">>Storage upgrades</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-1 col-sm-12 order-2">
+					>Infection assessments
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 p-2 pt-2 pb-0 col-sm-12">
+					We offer a guarantee on flat rate work - for you to see the job was completed
+					successfully. If you bring an issue to our attention within 30 days, and we
+					determine that there are defects in our work or in the parts we supply, we will
+					resolve that free of charge. Exceptions are:
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-0 col-sm-12 order-2">
+					>Virus disinfections get a 3-day guarantee that the virus doesn’t recur (since
+					some people’s habits lead them to reinfect themselves)
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-0 col-sm-12 order-2">
+					>If after a disinfection, we find your OS is corrupted or your data is still
+					locked up by ransomware, the work to address that would be at standard rates
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 p-2 pt-2 pb-0 col-sm-12">
+					New parts often come with a 1yr warranty. Most used parts have no warranty, but
+					let us know if that’s of interest. If a warranty replacement becomes needed 30
+					or more days after repair, any Tech Medic assessment or labor would be billable.
+					Quotes given are limited in scope & don’t cover attention to any other topics.
+					After receiving a quote, if you want to move forward, we’d take a 50% deposit
+					via:
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-0 col-sm-12 order-2">
+					A) Venmo to @techmedicllc (tied to my cell phone 401-743-2559)
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-0 col-sm-12 order-2">
+					B) Credit card over the phone (incurring a 3% surcharge to cover our fees)
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-11 p-2 pt-0 pb-0 col-sm-12 order-2">
+					C) If you want to come with cash that can be arranged
+				</div>
+			</div>
+		</div>
+		<footer
+			class="footer"
+			style="background-color: #ff6633; bottom: 0; width: 100%"
+			id="foot"
+		>
+			<div class="d-flex justify-content-center">
+				<b id="bigFooter">EMAIL: help@techmedic.us -- PHONE: 401-369-8108</b>
+			</div>
+			<div class="d-flex justify-content-center">
+				<b id="smallFooter1">EMAIL: help@techmedic.us</b>
+			</div>
+			<div class="d-flex justify-content-center">
+				<b id="smallFooter2">PHONE: 401-369-8108</b>
+			</div>
+			<div class="d-flex justify-content-center">
+				<b>SERVICE HOURS: weekdays 8-5pm, by appointment ONLY</b>
+			</div>
+			<div class="d-flex justify-content-center">
+				<b>LOCATION: 355 Hope St. Flr 2 Unit 5, Providence, RI 02906</b>
+			</div>
+			<div class="d-flex justify-content-center">
+				(we're above Tortilla Flats, with door to the right of the restaurant entrance)
+			</div>
+		</footer>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

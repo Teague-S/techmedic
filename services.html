@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Services</title>
+		<link rel="icon" type="image/x-icon" href="f.png" />
+		<!-- CSS only -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body id="main">
+		<style>
+			@media only screen and (max-width: 545px) {
+				#head {
+					display: none;
+				}
+			}
+			@media only screen and (min-width: 546px) {
+				#smallHead {
+					display: none;
+				}
+			}
+			@media only screen and (max-width: 907px) {
+				#bigNav {
+					display: none;
+				}
+				#bigFooter {
+					display: none;
+				}
+			}
+			@media only screen and (min-width: 908px) {
+				#smallNav {
+					display: none;
+				}
+				#smallFooter1 {
+					display: none;
+				}
+				#smallFooter2 {
+					display: none;
+				}
+			}
+			#main {
+				background-color: #666666;
+			}
+			div {
+				color: white;
+			}
+			.nav-item {
+				padding-right: 0.5em;
+				font-size: 0.9em;
+				margin-bottom: -0.3em;
+			}
+			#navbarDropdown {
+				color: white;
+				font-size: larger;
+			}
+		</style>
+		<img
+			class="img-fluid"
+			src="logo.png"
+			alt="Responsive image"
+			style="padding-left: 2vw; background-color: white"
+			id="smallHead"
+		/>
+		<img
+			class="img-fluid"
+			src="logo.png"
+			alt="Responsive image"
+			style="
+				width: 100%;
+				padding-right: 63.5%;
+				background-color: white;
+				padding-left: 2vw;
+			"
+			id="head"
+		/>
+		<nav
+			class="navbar navbar-expand p-0"
+			style="background-color: #ff6633"
+			id="bigNav"
+		>
+			<ul class="navbar-nav ms-auto">
+				<li class="nav-item">
+					<a
+						class="nav-link active"
+						aria-current="page"
+						href="index.html"
+						style="color: white; font-size: larger"
+						><b>Home</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a
+						class="nav-link"
+						href="services.html"
+						style="color: white; background-color: #666666; font-size: larger"
+						><b>Services</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="booking.html" style="color: white; font-size: larger"
+						><b>Booking</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a
+						class="nav-link"
+						href="testimonials.html"
+						style="color: white; font-size: larger"
+						><b>Testimonials</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="policies.html" style="color: white; font-size: larger"
+						><b>Policies</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="travel.html" style="color: white; font-size: larger"
+						><b>Travel</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="pay.html" style="color: white; font-size: larger"
+						><b>Pay Us</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a
+						class="nav-link"
+						href="resources.html"
+						style="color: white; font-size: larger"
+						><b>Resources</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html" style="color: white; font-size: larger"
+						><b>About Us</b></a
+					>
+				</li>
+			</ul>
+		</nav>
+		<nav
+			class="navbar navbar-expand p-0"
+			style="background-color: #ff6633"
+			id="smallNav"
+		>
+			<ul class="navbar-nav ms-auto">
+				<li class="nav-item dropdown">
+					<a
+						class="nav-link dropdown-toggle"
+						href="#"
+						id="navbarDropdown"
+						role="button"
+						data-bs-toggle="dropdown"
+						aria-expanded="false"
+					>
+						<b>Menu</b>
+					</a>
+					<ul
+						class="dropdown-menu dropdown-menu-end"
+						aria-labelledby="navbarDropdown"
+						style="padding-right: 0.5em"
+					>
+						<li>
+							<a class="dropdown-item" href="index.html"><b>Home</b></a>
+						</li>
+						<li>
+							<a
+								class="dropdown-item"
+								href="services.html"
+								style="background-color: rgb(215, 215, 215)"
+								><b>Services</b></a
+							>
+						</li>
+						<li>
+							<a class="dropdown-item" href="booking.html"><b>Booking</b></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="testimonials.html"><b>Testimonials</b></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="policies.html"><b>Policies</b></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="travel.html"><b>Travel</b></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="pay.html"><b>Pay Us</b></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="resources.html"><b>Resources</b></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="about.html"><b>About Us</b></a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<div class="container-fluid p-5 pt-4">
+			<div class="row">
+				<div class="col-12 p-2">
+					<img
+						class="img-fluid"
+						src="plus.png"
+						style="padding-right: 5px; padding-bottom: 1px"
+					/>
+					Our experts work with <b>PC's</b>, <b>Macs</b>, and <b>Networks</b> in both
+					<b>Business</b> and <b>Home</b>
+					environments.
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 p-2 pt-0 pb-0 col-sm-12 order-0">
+					<b>Common repairs we make:</b>
+				</div>
+				<div class="col-lg-2 p-2 pt-0 pb-0 col-sm-12 order-1">> virus removal</div>
+				<div class="col-lg-2 p-2 pt-0 pb-0 col-sm-12 order-2">> hardware failure</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-2 p-2 pt-0 pb-0 col-sm-12 order-1">> computer crashes</div>
+				<div class="col-lg-2 p-2 pt-0 pb-0 col-sm-12 order-2">
+					> network troubleshooting
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-2 p-2 pt-0 pb-0 col-sm-12 order-1">> printer problems</div>
+				<div class="col-lg-2 p-2 pt-0 pb-0 col-sm-12 order-2">> data recovery</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-2 p-2 pt-0 pb-0 col-sm-12 order-1">
+					> internet connection
+				</div>
+				<div class="col-lg-2 p-2 pt-0 pb-0 col-sm-12 order-2">> Windows corruption</div>
+			</div>
+			<div class="row">
+				<div class="col-12 p-2">
+					<img
+						class="img-fluid"
+						src="plus.png"
+						style="padding-right: 5px; padding-bottom: 1px"
+					/>
+					Call on us to help you <b>purchase</b> or <b>install</b> something new:
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 p-2 pt-0 pb-0 col-sm-12 order-0">
+					<b>Purchasing Help</b>
+				</div>
+				<div class="col-lg-9 p-2 pt-0 pb-4 col-sm-12 order-1">
+					We love to help customers find the right solution. The first step is consulting
+					with you to establish your specific needs, budget, and timeline. Next, we
+					combine our experience with up-to-date research to compile a purchase plan. We
+					email or deliver the plan and discuss the details. Upon approval, we either
+					order the products directly for you or help you do it yourself. Our goal is to
+					take out all the guesswork so that you are <b>confident</b> you're getting the
+					right products, from the right vendors, at a great price.
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 p-2 pt-0 pb-0 col-sm-12 order-0">
+					<b>Installation</b>
+				</div>
+				<div class="col-lg-9 p-2 pt-0 pb-0 col-sm-12 order-1">
+					We can help you install:
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-9 p-2 pt-0 pb-0 col-sm-12 order-0">
+					>home computers, workstations, servers, and printers
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-9 p-2 pt-0 pb-0 col-sm-12 order-0">
+					>software programs and hardware upgrades
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-9 p-2 pt-0 pb-0 col-sm-12 order-0">
+					>wireless networking and custom network cabling
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-9 p-2 pt-0 pb-0 col-sm-12 order-0">
+					>home networking to share an internet connection or printer
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 p-2">
+					<img
+						class="img-fluid"
+						src="plus.png"
+						style="padding-right: 5px; padding-bottom: 1px"
+					/>
+					We also offer regular maintenance and support for customers who want to get the
+					most out of their systems and gain <b>peace of mind</b>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 p-2 pt-0 pb-0 col-sm-12 order-0">
+					<b>Data Backup</b>
+				</div>
+				<div class="col-lg-9 p-2 pt-0 pb-0 col-sm-12 order-1">
+					Please don't risk losing your most precious asset, your data! We can do backups
+					for you or help you get the hardware and software to do it yourself.
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 p-2 pt-0 pb-0 col-sm-12 order-0">
+					<b>System Optimization</b>
+				</div>
+				<div class="col-lg-9 p-2 pt-0 pb-3 col-sm-12 order-0">
+					To make your system faster and run more reliably, we run a routine with some or
+					all of the following steps, depending upon your needs:
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-2 p-2 pt-0 pb-0 col-sm-12 order-1">> spyware removal</div>
+				<div class="col-lg-2 p-2 pt-0 pb-0 col-sm-12 order-2">> update software</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-2 p-2 pt-0 pb-0 col-sm-12 order-1">
+					> disk defragmentation
+				</div>
+				<div class="col-lg-2 p-2 pt-0 pb-0 col-sm-12 order-2">> computer cleaning</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-2 p-2 pt-0 pb-0 col-sm-12 order-1">> security audit</div>
+				<div class="col-lg-2 p-2 pt-0 pb-0 col-sm-12 order-2">> performance tuning</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-2 p-2 pt-0 pb-0 col-sm-12 order-1">
+					> optimize control panels
+				</div>
+				<div class="col-lg-2 p-2 pt-0 pb-0 col-sm-12 order-2">> upgrade audit</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-2 p-2 pt-0 pb-0 col-sm-12 order-1">
+					> optimize program settings
+				</div>
+				<div class="col-lg-2 p-2 pt-0 pb-3 col-sm-12 order-2">> noise reduction</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 p-2 pt-0 pb-2 col-sm-12 order-0">
+					<b>Training</b>
+				</div>
+				<div class="col-lg-9 p-2 pt-0 pb-2 col-sm-12 order-1">
+					We pride ourselves on being excellent teachers when it comes to technology. We
+					offer one-time or regularly scheduled training to individuals or groups of all
+					sizes. To find out more about what we can teach you, give us a call!
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 p-2 pt-0 pb-0 col-sm-12 order-0">
+					<b>Support Contracts</b>
+				</div>
+				<div class="col-lg-9 p-2 pt-0 pb-0 col-sm-12 order-1">
+					We offer support contracts tailored to customers who need reliable service on an
+					ongoing basis. Contracts could include phone support, regular data backup,
+					regular system optimization, or a series of training lectures. We give a
+					discount to work done under a contract, because having a set schedule allows us
+					to run efficiently. Call today to set an appointment and find out what we can do
+					for you!
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 p-2">
+					<img
+						class="img-fluid"
+						src="plus.png"
+						style="padding-right: 5px; padding-bottom: 1px"
+					/>
+					Through our professional affiliates, we help clients with the following needs.
+					Call for a referral:
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-9 p-2 pt-0 pb-0 col-sm-12 order-1">
+					> Graphic/Print Design
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-9 p-2 pt-0 pb-0 col-sm-12 order-1">> Web Design</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-9 p-2 pt-0 pb-0 col-sm-12 order-1">
+					> Custom Web Programming
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 p-2 pt-0 pb-0 col-sm-12 order-0"></div>
+				<div class="col-lg-9 p-2 pt-0 pb-0 col-sm-12 order-1">
+					> Large Format Printing
+				</div>
+			</div>
+		</div>
+		<footer class="footer" style="background-color: #ff6633" id="foot">
+			<div class="d-flex justify-content-center">
+				<b id="bigFooter">EMAIL: help@techmedic.us -- PHONE: 401-369-8108</b>
+			</div>
+			<div class="d-flex justify-content-center">
+				<b id="smallFooter1">EMAIL: help@techmedic.us</b>
+			</div>
+			<div class="d-flex justify-content-center">
+				<b id="smallFooter2">PHONE: 401-369-8108</b>
+			</div>
+			<div class="d-flex justify-content-center">
+				<b>SERVICE HOURS: weekdays 8-5pm, by appointment ONLY</b>
+			</div>
+			<div class="d-flex justify-content-center">
+				<b>LOCATION: 355 Hope St. Flr 2 Unit 5, Providence, RI 02906</b>
+			</div>
+			<div class="d-flex justify-content-center">
+				(we're above Tortilla Flats, with door to the right of the restaurant entrance)
+			</div>
+		</footer>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
